@@ -25,6 +25,9 @@ public class generatePassworf {
 	System.out.println("1) " +  firstNumber + "-" + secondNumber + "-" +  thirdNumber);
 	System.out.println("2) "  +  thirdNumber + "-" + firstNumber + "-" + secondNumber);
 	System.out.println("3) "   + secondNumber + "-" + thirdNumber + "-" + firstNumber);
+	System.out.println("4) " +  firstNumber + "-" + thirdNumber + "-" +  secondNumber);
+	System.out.println("5) " +  thirdNumber + "-" + secondNumber + "-" +  firstNumber);
+	System.out.println("6) " +  secondNumber + "-" + firstNumber + "-" +  thirdNumber);
 	System.out.println("You're Welcome.");
 	input.close();
 
