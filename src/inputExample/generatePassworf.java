@@ -21,7 +21,7 @@ public class generatePassworf {
 	thirdNumber =input.nextInt();
 	
 	
-	System.out.println("Here are three possibe passwords with the given numbers:");
+	System.out.println("Here are all possibe passwords with the given numbers:");
 	System.out.println("1) " +  firstNumber + "-" + secondNumber + "-" +  thirdNumber);
 	System.out.println("2) "  +  thirdNumber + "-" + firstNumber + "-" + secondNumber);
 	System.out.println("3) "   + secondNumber + "-" + thirdNumber + "-" + firstNumber);
