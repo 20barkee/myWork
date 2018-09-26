@@ -20,7 +20,7 @@ public class fortuneTeller {
 		
 		System.out.println("I predict that...");
 		System.out.println("You will die in hospital room number " + age + weight);
-		System.out.println("and " + luckyNumber + " will come to your funeral.");
+		System.out.println("and " + luckyNumber + " people will come to your funeral.");
 		
 	 input.close();
 
