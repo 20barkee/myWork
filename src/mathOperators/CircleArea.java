@@ -9,7 +9,7 @@ public class CircleArea {
 		
 	double pi = Math.PI;
 
-double radius = -999.0;
+	double radius = -999.0;
 		
 		Scanner input =new Scanner(System.in);
 		System.out.print("What is the radius of the circle?");
