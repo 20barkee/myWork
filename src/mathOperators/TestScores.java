@@ -30,7 +30,7 @@ public class TestScores {
 	System.out.println("Third Test Score: " + test3 + "%");
 	
 	
-	System.out.println("The Average of the three test scores are: " + average + "%");
+	System.out.println("The Average of the three test scores is: " + average + "%");
 	
 	input.close();	
 	
