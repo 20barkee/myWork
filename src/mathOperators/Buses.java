@@ -17,8 +17,8 @@ public class Buses {
 		int leftOvers = people % BUSESPEOPLE;
 		int buses = people/ BUSESPEOPLE;
 		
-		System.out.println("There are " + people + " in the group.");
-		System.out.println("So, " + buses + "  buses will need to be ordered");
+		System.out.println("There are " + people + " people in the group.");
+		System.out.println("So, " + buses + "  buses will need to be ordered.");
 		System.out.println("There will be " + leftOvers + " people left over.");
 		
 		input.close();
