@@ -18,7 +18,7 @@ public class PostIts {
 		System.out.print("What is the width of the rectagle?");
 		width= input.nextDouble();
 		
-		final double POSTIT= 9;
+		final double POSTIT= 9.0;
 		
 		double area= (length * width) / POSTIT;
 		
