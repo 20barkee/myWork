@@ -23,7 +23,7 @@ public class PostIts {
 		double area= (length * width) / POSTIT;
 		
 		
-		System.out.println("In order to cover the rectnangle, a person would need : " + area + "3 by 3 post-it notes.");
+		System.out.println("In order to cover the rectnangle, a person would need: " + area + "3 by 3 post-it notes.");
 		input.close();
 
 	}
