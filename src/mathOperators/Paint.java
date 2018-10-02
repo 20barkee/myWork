@@ -21,7 +21,7 @@ public class Paint {
 
 	double surfaceArea= (HEIGHT*length*width)/2;
 	
-	double paintNeeded= surfaceArea/400;
+	double paintNeeded= surfaceArea/150;
 	
 	System.out.println( (int)paintNeeded + " gallon(s) of paint will be needed to paint the room.");
 	input.close();
