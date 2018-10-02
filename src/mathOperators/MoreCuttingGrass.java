@@ -20,19 +20,21 @@ public class MoreCuttingGrass {
 		System.out.println("What is the length of the lawn?");
 		length= input.nextDouble();
 		
-		System.out.println("What is the width of the lawn mower?");
+		System.out.println("What is the width of the lawn mower in inches?");
 		mowerWidth=input.nextDouble();
 		
 		System.out.println("How many miles per hour is the lawn mower going?");
 		mph=input.nextInt();
 		
+		
+		double mowerWidthFeet= mowerWidth/12;
 		double area= width*length;
-		double grassCutPerHour= mowerWidth*mph;
+		double grassCutPerHour= mowerWidth/mph;
 		double howLong= area/grassCutPerHour;
 		
-		double money= howLong*PAY;
+		double cost= 
 		
-		System.out.println("It will take "+ howLong +" to cut the lawn.");
+		System.out.println("It will take "+ howLong +" hours to cut the lawn.");
 		System.out.println("The person will be owed $" + money + "." );
 		input.close();
 		
