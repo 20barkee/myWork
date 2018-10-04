@@ -19,13 +19,16 @@ public class MusicSongs {
 		System.out.println("What is the total length of the songs?");
 		totalLength =input.nextDouble();
 		
-		decimalLength= totalLength * 100;
+		decimalLength= totalLength * 60;
 		average= decimalLength/totalSongs; 
-		minutes=average/60;
-		seconds= average%60;
+		minutes= average/60;
+		seconds= average % 60;
+		minutes= (int)minutes;
+		seconds= average- (minutes * 60);
+	
 		
 		
-		System.out.println("The avarage song length is " + minutes + " minutes long and  " + seconds + " seconds long.");
+		System.out.println("The avarage song length is " + minutes + " minute(s) long and  " + seconds + " second(s) long.");
 		input.close();
 	}
 
