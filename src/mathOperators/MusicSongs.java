@@ -22,7 +22,7 @@ public class MusicSongs {
 		decimalLength= totalLength * 60;
 		average= decimalLength/totalSongs; 
 		minutes= average/60;
-		seconds= average % 60;
+		
 		minutes= (int)minutes;
 		seconds= average- (minutes * 60);
 	
