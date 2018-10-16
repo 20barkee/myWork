@@ -7,6 +7,9 @@ public class Home {
 	}
 
 	public void paintWall() {
+		
+		//example of tues assesment
+		
 		double height= -999;
 		double length= -999;
 		double time=-999;
@@ -38,18 +41,19 @@ public void plantGarden(double length, int rows) {
 		System.out.println("It will take " + time + " to plant the garden");	
 }
 
-public void fillPool(double radius, double height) {
+public void fillPool(double radius, double height) {//local variables that will be created and destroyed 
 	final double RATE= 300; //300 gallons an hour
 	double volume= Math.PI * (radius*radius)* height;
-	final double CONVERSION= 7.48052; // cublic feet to gallons
+	final double CONVERSION= 7.48052; // cubic feet to gallons
 	volume= volume * CONVERSION;
 	double time= volume/RATE;
 
 	
-	System.out.println("It will take " + Math.round(time) + " hours to fill the pool");
+	System.out.println("It will take about " + Math.round(time) + " hours to fill the pool");
 }
 
-
+// test on tues is no parameters no return values
+// write class def and draw picture
 }
 
 	

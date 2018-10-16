@@ -12,6 +12,20 @@ public class TestNumbers {
 		test.sayNumberPlus2(0);
 		
 		test.saySum(3,6);
+		
+	
+	//	double result= test.returnArea(7, 3);
+
+	
+		
+		double result2 = test.returnRoundUp;
+		doubleValue = (double)num3;
+		doubleValue= (Math.Seal)num3;
+		
+		
+		
+		
+		
 	}
 
 }
