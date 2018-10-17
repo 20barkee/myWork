@@ -3,8 +3,9 @@ package OOP;
 import java.util.Scanner;
 
 public class Sandbox {
-	pubic Sandbox() {
+	public Sandbox() {
 	}
+	
 		public void fillSandbox1() {
 			double length= -999;
 			double width=-999;
