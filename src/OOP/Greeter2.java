@@ -13,7 +13,7 @@ public int getAge() { //getter method: returning int getAge
 	return age;
 	//getters are acessor methods that reports back its value to main method or wherever it came from
 }
-public void setAge(int xAge) { //setter
+public void setAge(int xAge) { //setter void return type so pass it a parameter
 	age= xAge; //x is the local variable inside of there 
 	//mutoator method that assigns fields a new value
 }
