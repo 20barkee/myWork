@@ -1,33 +1,38 @@
 package OOP;
 
 public class Worker {
-	//instance fields
+	// instance fields
 	private int hours;
 	private double hourlyPay;
-	
-	//constructor
+
+	// constructor
 	public Worker() {
-		hours=-999;
-		hourlyPay=-999;
+		hours = -999;
+		hourlyPay = -999;
 	}
-	//alternate constructor
+
+	// alternate constructor
 	public Worker(int newHours, double newHourlyPay) {
-		hours= newHours;
-		hourlyPay=newHourlyPay;
+		hours = newHours;
+		hourlyPay = newHourlyPay;
 	}
-	//acessor methods
+
+	// acessor methods
 	public int getHours() {
 		return hours;
 	}
+
 	public double getHourlyPay() {
 		return hourlyPay;
 	}
+
 	public double payCheck() {
-		double payCheck= hours*hourlyPay;
-		return payCheck;	
+		double payCheck = hours * hourlyPay;
+		return payCheck;
 	}
-	//mutator methods
+
+	// mutator methods
 	public void raise(double number) {
-		hourlyPay= hourlyPay+number;
+		hourlyPay = hourlyPay + number;
 	}
 }
