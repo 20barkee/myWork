@@ -1,10 +1,10 @@
 package OOP;
 
 public class GreeterTest {
+	public static void main(String []args) {
 
-}
-{
-Greeter bob = new Greeter();
+FirstProject bob= new FirstProject();
 	bob.sayHello();
 	
 	}
+}

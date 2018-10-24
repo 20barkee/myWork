@@ -16,7 +16,7 @@ public class PhoneTest {
 		System.out.println(bob.getNumCalls());
 		System.out.println(bob.getNumMinutes());
 		System.out.println(bob.getEMERGENCY());
-		
+		System.out.println(bob.call(called, time));
 		
 		//System.out.println(bob.call(145433322, 3));
 	

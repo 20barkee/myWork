@@ -4,7 +4,7 @@ public class Phone {
 	private long myNumber;
 	private long speedDial;
 	private long lastCall;
-	private final int EMERGENCY= 991;
+	private final int EMERGENCY= 911;
 	private int numCalls;
 	private double numMinutes;
 	
@@ -64,7 +64,7 @@ public class Phone {
 	}
 	public void call(long called, int time) {
 		lastCall= called;
-		numMinutes=numMinutes= time;
-		numCalls=numCalls=1;
+		numMinutes=numMinutes+ time;
+		numCalls=numCalls+1;
 	}
 }
