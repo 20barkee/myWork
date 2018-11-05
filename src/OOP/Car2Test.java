@@ -60,5 +60,6 @@ public static void main(String []args) {
 	System.out.println("Fuel Capcity:" + kidsCar.getFtc());
 	System.out.println("Fuel In Tank:" + kidsCar.getFuelInTank());
 	System.out.println("Odometer:" + kidsCar.getOdometer());
+
 }
 }
