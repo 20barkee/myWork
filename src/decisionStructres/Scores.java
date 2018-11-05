@@ -12,10 +12,7 @@ public class Scores {
 		System.out.println("Average of the test scores?");
 		average = input.nextDouble();
 
-		if (average >= 92.5) {
-			System.out.println("Grade is A");
-		}
-		
+
 		if(average>=92.5)
 		{
 			System.out.println("A");
