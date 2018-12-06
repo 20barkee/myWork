@@ -24,7 +24,7 @@ do {
 		}
 		System.out.println("Again?");
 		repeat=(input.nextLine().trim().equalsIgnoreCase("false")? false:true);
-		//ask what this means cause i dont really get this 
+		//*
 	}
 	while(repeat);
 
