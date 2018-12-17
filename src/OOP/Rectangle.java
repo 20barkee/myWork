@@ -10,7 +10,7 @@ public class Rectangle {
 		// want to initalize the variables
 	}
 	
-	pubic Rectangle(double L, double W) {
+	public Rectangle(double L, double W) {
 		length=L;
 		width=W;
 	}
