@@ -8,7 +8,7 @@ public class Assessment2 {
 		// TODO Auto-generated method stub
 		Scanner input = new Scanner(System.in);
 		int numFriends = 3;
-		Assessment2TestClass[] bob = new Assessment2TestClass[numFriends];
+		Assessment2TestClass[] bob = new Assessment2TestClass[numFriends];`
 
 		String name;
 		int age;
