@@ -6,12 +6,16 @@ public class circle123 {
 	 //constructor(s)
 	    public circle123( )
 	   {
-	 radius = -99; 
+	 radius = 10; 
 	   }
 
 	  public circle123(double xRadius)
 	   {
-	 radius = xRadius;       
+		  if(xRadius>0) {
+	 radius = xRadius;  
+		  }
+		  else 
+			  xRadius=1;
 	    }
 
 	//Accessor Methods

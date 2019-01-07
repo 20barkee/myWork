@@ -12,8 +12,8 @@ int sum=0;
 		circle123[] radii= new circle123[3];
 		
 		
-		for(int i=0; i<3;i++) {
-			randomNum=1+generator.nextInt(10-5+1);
+		for(int i=0; i<radii.length;i++) {
+			randomNum=1+generator.nextInt(25-1+1);
 			circle123 shape= new circle123(i);
 			radii[i]=shape;
 			sum+= radii[i].area();
