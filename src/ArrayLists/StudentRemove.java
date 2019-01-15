@@ -3,7 +3,7 @@ package ArrayLists;
 import java.util.ArrayList;
 
 import OOP.Friend;
-import OOP.Rectangle;
+
 
 public class StudentRemove {
 
@@ -12,9 +12,9 @@ public class StudentRemove {
 
 		
 		ArrayList<Friend>bob= new ArrayList<Friend>();
-		bob.add(0,"Billy");
-		bob.add(1,"Bob");
-		bob.add(2,"BoBby");
+		bob.add(new Friend("bob",0));
+		bob.add("Bob");
+		bob.add("BoBby");
 		
 	Friend temp=	bob.remove(0);
 		bob.set(bob.size()-1, temp);
