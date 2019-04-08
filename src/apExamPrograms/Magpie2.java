@@ -1,7 +1,7 @@
 package apExamPrograms;
 
 public class Magpie2 {
-
+boolean good=false;
 	/**
 	 * Get a default greeting 	
 	 * @return a greeting
@@ -25,19 +25,35 @@ public class Magpie2 {
 		{
 			response = "Why so negative?";
 		}
-		else if (statement.indexOf("mother") >= 0
+		if (statement.indexOf("mother") >= 0
 				|| statement.indexOf("father") >= 0
 				|| statement.indexOf("sister") >= 0
 				|| statement.indexOf("brother") >= 0)
 		{
 			response = "Tell me more about your family.";
 		}
-		else
-		{
+		
+		if(statement.indexOf("dog") >=0 || statement.indexOf("cat")>=0) {
+			response= "Tell me more about your pets.";
+		}
+		if(statement.indexOf("favorite")>=0 && statement.indexOf("sport")>=0 
+				||statement.indexOf("favorite")>=0 && statement.indexOf("activity")>=0){
+		response= "Thats cool that you like to do that!";
+		}
+		for(int i=0; i<statement.length()-1; i++) {
+			if(statement.charAt(i)!= ' ') {
+			good=true;
+			}
+			else {
+				good=false;
+			}
+		}
+		
+		else{
 			response = getRandomResponse();
 		}
 		return response;
-	}
+		}
 
 	/**
 	 * Pick a default response to use if nothing else fits.
