@@ -3,7 +3,7 @@ package interfaces;
 public class formLetter {
 	
 int pos=line.indexOf(sub);
-while(pose>=-) {
+while(pose>=0) {
 	line=line.substring(0,pos)+repl+line.substring(pos+sub.length())
 pos=line.indexOf(sub)
 }
