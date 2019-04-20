@@ -47,4 +47,7 @@ public void setSide4(double zSide4) {
 public double getPerimeter() {
 	return (side1 + side2+ side3+ side4)/4;
 }
+public String toString() {
+	return "Quadrilateral Object: Side 1= " +side1 + " Side 2= " +side2+ " Side 3= " +side3 + " Side  4= " +side4;
+}
 }
